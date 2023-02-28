@@ -1,0 +1,35 @@
+.main-button {
+    margin: 10px;
+    width: 48% !important;
+}
+
+.btn-circle {
+    width: 56px;
+    height: 56px;
+    padding: 7px 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.fab-container {
+    bottom: 4vh;
+    position: fixed;
+    margin: 0;
+    right: 5vw;
+    margin: 0;
+}
+
+.fab {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 0;
+    position: relative;
+    -webkit-transition: transform .1s ease-out, height 100ms ease, opacity 100ms ease;
+    transition: transform .1s ease-out, height 100ms ease, opacity 100ms ease;
+    transition-delay: 0s, 0s, 0s;
+    text-decoration: none;
+}

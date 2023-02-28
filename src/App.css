@@ -1,0 +1,25 @@
+.App {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  text-align: left;
+}
+
+
+.App-body {
+  flex: 1 1;
+  margin-bottom: 50px;
+}
+
+.footer__bottom {
+  padding: 1.5em 0;
+}
+
+.footer__bottom {
+  background-color: #1f3d87;
+  color: #fff;
+}
+
+@import "./presentation/Header/styles.css";
+@import "./presentation/Requests/styles.css";
+@import "./presentation/Login/styles.css";

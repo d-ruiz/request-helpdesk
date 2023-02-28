@@ -1,0 +1,16 @@
+/**
+** Login form
+*/
+
+.login-page {
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #282c34;
+  height: 100%;
+}
+
+.login-form {
+  border-radius: 8px;
+}
